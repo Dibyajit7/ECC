@@ -3,7 +3,6 @@
   "generatedBy": "ecc-tools",
   "profile": "full",
   "sharedSkills": [
-    ".claude/skills/ecc-conventions/SKILL.md",
     ".agents/skills/ecc-conventions/SKILL.md"
   ],
   "commandFiles": [

@@ -134,7 +134,6 @@
     "enterprise-controls"
   ],
   "managedFiles": [
-    ".claude/skills/ecc-conventions/SKILL.md",
     ".agents/skills/ecc-conventions/SKILL.md",
     ".agents/skills/ecc-conventions/agents/openai.yaml",
     ".claude/identity.json",
@@ -154,7 +153,6 @@
   ],
   "packageFiles": {
     "runtime-core": [
-      ".claude/skills/ecc-conventions/SKILL.md",
       ".agents/skills/ecc-conventions/SKILL.md",
       ".agents/skills/ecc-conventions/agents/openai.yaml",
       ".claude/identity.json",
@@ -185,7 +183,6 @@
   },
   "moduleFiles": {
     "runtime-core": [
-      ".claude/skills/ecc-conventions/SKILL.md",
       ".agents/skills/ecc-conventions/SKILL.md",
       ".agents/skills/ecc-conventions/agents/openai.yaml",
       ".claude/identity.json",
@@ -215,11 +212,6 @@
     ]
   },
   "files": [
-    {
-      "moduleId": "runtime-core",
-      "path": ".claude/skills/ecc-conventions/SKILL.md",
-      "description": "Repository-specific Claude Code skill generated from git history."
-    },
     {
       "moduleId": "runtime-core",
       "path": ".agents/skills/ecc-conventions/SKILL.md",
@@ -317,7 +309,7 @@
   ],
   "adapters": {
     "claudeCode": {
-      "skillPath": ".claude/skills/ecc-conventions/SKILL.md",
+      "skillPath": ".agents/skills/ecc-conventions/SKILL.md",
       "identityPath": ".claude/identity.json",
       "commandPaths": [
         ".claude/commands/database-migration.md",
